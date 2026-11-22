@@ -1,7 +1,7 @@
 .env
 .env.*
 !.env.example
-__pycache__/
+*__pycache__*
 *.py[cod]
 .venv/
 .pytest_cache/
@@ -13,3 +13,5 @@ runtime_data/
 .pytest_cache/
 .DS_Store
 documents_archieve
+*.pyc
+
