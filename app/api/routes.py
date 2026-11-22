@@ -10,7 +10,7 @@ from fastapi import APIRouter, Depends, File, HTTPException, Request, UploadFile
 from starlette.concurrency import run_in_threadpool
 from structlog import get_logger
 
-from app.utils.config import Settings
+from app.config.config import Settings
 from app.utils.custom_logger import LOGGER_NAME
 from app.ai_module.schemas import AskRequest, ChatResponse, CompareResponse, DocumentAnalysis
 from app.security import current_user, get_settings, require_session_id

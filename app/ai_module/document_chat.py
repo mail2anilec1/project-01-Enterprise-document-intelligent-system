@@ -6,8 +6,8 @@ import re
 from typing import Any
 
 from app.utils.model_provider import ModelProvider
-from app.utils.config import Settings
-from app.ai.prompt_manager import PromptManager
+from app.config.config import Settings
+from app.ai_module.prompt_manager import PromptManager
 
 SMALL_TALK = re.compile(
     r"(?:(?:hi|hello|hey|good morning|good afternoon|good evening|namaste)[.!?, ]+)?"

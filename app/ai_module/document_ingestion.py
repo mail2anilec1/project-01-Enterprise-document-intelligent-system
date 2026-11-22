@@ -16,7 +16,7 @@ from typing import Protocol
 from fastapi import HTTPException, UploadFile
 from structlog import get_logger
 
-from app.utils.config import Settings
+from app.config.config import Settings
 from app.utils.custom_logger import LOGGER_NAME
 
 SUPPORTED = {".pdf", ".docx", ".txt"}

@@ -20,7 +20,7 @@ from structlog.contextvars import bind_contextvars, reset_contextvars
 from app.api.auth_routes import router as auth_router
 from app.api.routes import router
 from app.services.accounts import AccountStore, LOGIN_COOKIE
-from app.utils.config import Settings
+from app.config.config import Settings
 from app.utils.custom_logger import LOGGER_NAME, DocumentIntelligenceLogger
 from app.services.document_workflows import PortalService
 

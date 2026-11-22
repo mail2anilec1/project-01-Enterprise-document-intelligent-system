@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from app.utils.config import Settings
+from app.config.config import Settings
 
 
 class ModelProvider:

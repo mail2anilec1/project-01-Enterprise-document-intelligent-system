@@ -9,7 +9,7 @@ from pathlib import Path
 from fastapi import HTTPException
 from structlog import get_logger
 
-from app.utils.config import Settings
+from app.config.config import Settings
 from app.utils.custom_logger import LOGGER_NAME
 from app.ai_module.document_ingestion import (
     Embedder,

@@ -9,7 +9,7 @@ from fastapi import Depends, HTTPException, Request, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
 from app.services.accounts import LOGIN_COOKIE
-from app.utils.config import Settings
+from app.config.config import Settings
 
 _bearer = HTTPBearer(auto_error=False)
 SESSION_RE = re.compile(r"^[a-f0-9]{32}$")
